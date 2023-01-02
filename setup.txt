@@ -1,4 +1,4 @@
-# Follow along, not tested for direct execution:
+###### MacOS! ###### Follow along, not tested for direct execution:
 
 read  -n 1 -p "Install Homebrew and press any key"
 brew install python
