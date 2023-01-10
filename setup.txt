@@ -28,3 +28,14 @@ git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/pack/git-pl
 
 # Install vim-tmux-navigator:
 git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
+
+# install vim-airline:
+git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+# in vim, to generate helptags:
+:helptags ~/.vim/pack/dist/start/vim-airline/doc
+
+# install powerline-fonts:
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+# Set iterm2 to the right font
